@@ -104,3 +104,16 @@ h1 {
 	bottom: 45%;
 	left: 5%;
 } 
+
+/*Define the animation*/
+@keyframes slide-in{
+	0%{
+		transform:translateX(-100%);
+	}
+	100%{
+		transform:translatesX(0);
+	}
+}
+.plant{
+	animation:slide-in 1s ease-in-out;
+}
